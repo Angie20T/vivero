@@ -1,0 +1,197 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #AEC670;
+    color: #1A2902;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scroll-to-top a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #AEC670;
+    color: #1A2902;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.scroll-to-top a:hover {
+    background-color: greenyellow;
+
+}
+
+.scroll-to-top i {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap');
+
+.text-i {
+    color: rgba(174, 198, 112, 1);
+
+}
+
+body {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar-light .navbar-toggler {
+    background-color: rgba(174, 198, 112, 1);
+    opacity: 50%;
+    border-color: white;
+}
+
+
+/*boton de menu(icono)*/
+#menu a,
+button {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+#menu a {
+    color: rgba(174, 192, 154, 1);
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+#menu a:hover {
+    color: greenyellow;
+
+}
+
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height: 40rem !important;
+}
+
+/*===================INICIO==========================*/
+#intro {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+#intro p {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 437px) {
+
+    /* Oculta el carrusel */
+    .carousel {
+        display: none;
+    }
+
+    /* ocultar texto */
+    #intro {
+        display: none;
+    }
+}
+
+
+
+
+/*===================SECCION SOBRE NOSOTROS==========================*/
+
+.texto {
+    text-align: justify;
+    margin-right: 20vw;
+}
+
+
+
+
+/*===================PRODUCTOS Y SERVICIOS=========================*/
+.products,
+.servic {
+    font-family: 'Poppins', sans-serif;
+}
+
+#productos h5 {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*imágenes de la sección ocupen el mismo tamaño y estén alineadas*/
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/*=========================SERVICIOS================================*/
+#servicios h2 {
+    color: #AEC09A;
+}
+
+#servicios .card-body {
+    background-color: #AEC09A;
+}
+
+#servicios .row {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*=========================CONTACTO================================*/
+
+#contacto {
+    background-color: #ddebcb;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #1A2902;
+    min-height: 100px;
+    ;
+}
+
+footer p {
+    color: #AEC09A;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #AEC09A;
+}
+
